@@ -1,0 +1,31 @@
+body{
+  background-color: antiquewhite;
+  
+}
+.heading{
+  display:flex;
+  justify-content:center;
+}
+.container{
+  display:flex;
+  justify-content: space-between;
+  column-gap: 100px;
+}
+img{
+  height:500px;
+  width:500px;
+}
+.left-panel{
+  display:flex;
+  flex-direction:column;
+  row-gap:20px;
+}
+button{
+  background-color:aquamarine;
+  border:none;
+  padding:20px 25px;
+  border-radius:20px;
+  font-size:16px;
+  font-weight:500px;
+  cursor:pointer;
+}

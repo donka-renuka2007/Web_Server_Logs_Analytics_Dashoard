@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Web Server Logs Analytics</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="heading">
+      <div>
+        <h1>Web Server Logs Dashboard</h1>
+      </div>
+    </div>
+    <div class="container">
+    <div class="left-panel">
+      <div><a href="web_server_logs_5000.csv" download><button>Download Data Set here</button></a></div>
+    <div>
+        <button onclick="showVisual('images/client_error_vs_page.png')">Client Errors vs Page</button>
+    </div>
+    <div>
+        <button onclick="showVisual('images/Day_vs_Req.png')">Requests by Day</button>
+    </div>
+    <div>
+        <button onclick="showVisual('images/device_vs_req.png')">Requests by Device</button>
+    </div>
+    <div>
+        <button onclick="showVisual('images/Hour_vs_Req.png')">Requests by Hour</button>
+    </div>
+    <div>
+        <button onclick="showVisual('images/ip_vs_req.png')">Requests by IP</button>
+    </div>
+    <div>
+        <button onclick="showVisual('images/ip_vs_resource_used.png')">IP vs Resource Usage</button>
+    </div>
+    <div>
+        <button onclick="showVisual('images/page_vs_req.png')">Requests by Page</button>
+    </div>
+    <div>
+        <button onclick="showVisual('images/server_error_vs_page.png')">Server Errors vs Page</button>
+    </div>
+    <div>
+        <button onclick="showVisual('images/status_code_vs_req.png')">Status Code Distribution</button>
+    </div>
+    <div>
+        <button onclick="showVisual('images/Time_of_Day_vs_Req.png')">Time of Day vs Requests</button>
+    </div>
+    <div>
+        <button onclick="showVisual('images/user_agent_vs_req.png')">User Agent Analysis</button>
+    </div>
+    </div>
+    <div class="right-panel"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
